@@ -287,7 +287,7 @@ client.on('interactionCreate', async (interaction) => {
       .setColor(EMBED_COLOR)
       .setTitle('Paw Bot Commands')
       .addFields(
-        { name: '/pawinfo', value: 'Show your paw info, or someone else\\'s if you @ them.', inline: false },
+        { name: '/pawinfo', value: "Show your paw info, or someone else's if you @ them.", inline: false },
         { name: '/linkpaw', value: 'Open the site and link your paw to Discord.', inline: false },
         { name: '/pawstats', value: 'Show paw stats.', inline: false },
         { name: '/pawmessage', value: 'Update your paw message from Discord.', inline: false },
