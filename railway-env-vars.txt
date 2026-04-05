@@ -1,0 +1,13 @@
+Add these variables in Railway:
+
+DISCORD_TOKEN=your real bot token
+DISCORD_CLIENT_ID=1489731726581170267
+DISCORD_GUILD_ID=1002005034571149363
+SUPABASE_URL=https://gdvoemxiaytcqiuvpjuk.supabase.co
+SUPABASE_ANON_KEY=your real anon key
+
+Start command:
+npm start
+
+When you change slash commands, run:
+npm run deploy-commands

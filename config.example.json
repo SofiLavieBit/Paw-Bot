@@ -1,0 +1,7 @@
+{
+  "token": "YOUR_DISCORD_TOKEN",
+  "clientId": "1489731726581170267",
+  "guildId": "1002005034571149363",
+  "supabaseUrl": "https://gdvoemxiaytcqiuvpjuk.supabase.co",
+  "supabaseAnonKey": "YOUR_SUPABASE_ANON_KEY"
+}
