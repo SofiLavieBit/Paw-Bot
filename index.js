@@ -275,7 +275,7 @@ client.on('interactionCreate', async (interaction) => {
     const embed = new EmbedBuilder()
       .setColor(EMBED_COLOR)
       .setTitle('Paw Bot')
-      .setDescription('Paw Bot is online :3');
+      .setDescription('Boop :3');
 
     await interaction.reply({ embeds: [embed] });
     logStep('Replied to /ping');
@@ -494,7 +494,14 @@ client.on('messageCreate', async (message) => {
     if (text.includes('bleh')) {
       try {
         logStep('Detected "bleh" in message. Sending response.');
-        await message.reply('Blehhhh <:InnocentSofi:1476468886848147486>');
+
+        await message.reply({
+          content: 'Blehh',
+          allowedMentions: { repliedUser: false },
+        });
+
+        await message.channel.send('<:InnocentSofi:1491107484595916840>');
+
         logStep('Bleh response sent successfully');
       } catch (err) {
         logStep(`Bleh response failed: ${err.message || err}`);
